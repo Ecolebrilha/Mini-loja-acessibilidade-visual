@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Comparação de Produtos - TechGamer Innovations</title>
+     <style>
+        body {
+            font-size: 16px;
+            color: #333;
+            background-color: #fff;
+}
+
+        table {
+            width: 80%;
+            border-collapse: collapse;
+            margin: 20px auto;
+}
+
+        th, td {
+            border: 1px solid #ccc;
+            padding: 10px;
+            text-align: center;
+}
+
+        th {
+            background-color: #f2f2f2;
+}
+
+        h1 {
+            text-align: center;
+}
+
+        body.daltonico {
+            background-color: #f0f0f0;
+            color: #007acc;
+}
+
+        body.fonte-grande {
+            font-size: 20px;
+}
+
+        body.fonte-pequena {
+            font-size: 14px;
+}
+</style>
+</head>
+<body>
+     <h1>Comparação de Produtos - TechGamer Innovations</h1>
+<div>
+        <button onclick="toggleDaltonico()">Alternar Cores para Daltônicos</button>
+        <button onclick="increaseFont()">Aumentar Fonte</button>
+        <button onclick="decreaseFont()">Diminuir Fonte</button>
+        <button onclick="restoreDefaults()">Restaurar Padrões</button>
+</div>
+<table>
+<tr>
+         <th>Produto</th>
+         <th>Preço</th>
+         <th>Características</th>
+</tr>
+<tr>
+         <td>Smartphone TechCo X1</td>
+         <td>R$ 1099,99</td>
+<td>
+<ul>
+         <li>Tela de 6.2 polegadas</li>
+         <li>Processador Snapdragon 865</li>
+         <li>Memória RAM de 8GB</li>
+         <li>Armazenamento interno de 128GB</li>
+</ul>
+</td>
+</tr>
+<tr>
+         <td>Smartphone InMasters G2</td>
+         <td>R$ 899,99</td>
+<td>
+<ul>
+         <li>Tela de 6.0 polegadas</li>
+         <li>Processador MediaTek Helio P70</li>
+         <li>Memória RAM de 6GB</li>
+         <li>Armazenamento interno de 64GB</li>
+</ul>
+</td>
+</tr>
+<tr>
+         <td>Console TechGamer 2023</td>
+         <td>R$ 2299,99</td>
+<td>
+<ul>
+         <li>Processador de última geração</li>
+         <li>Gráficos de alto desempenho</li>
+         <li>Armazenamento de 2TB</li>
+         <li>Compatibilidade com 4K</li>
+</ul>
+</td>
+</tr>
+<tr>
+         <td>Console Gamer XYZ</td>
+         <td>R$ 1999,99</td>
+<td>
+<ul>
+         <li>Processador de alta velocidade</li>
+         <li>Gráficos avançados</li>
+         <li>Armazenamento de 1.5TB</li>
+         <li>Compatibilidade com VR</li>
+</ul>
+</td>
+</tr>
+<tr>      
+         <td>Mouse Gamer TurboX</td>
+         <td>R$ 79,99</td>
+<td>
+<ul>
+         <li>Sensor de precisão ajustável</li>
+         <li>Iluminação RGB personalizável</li>
+         <li>Design ergonômico</li>
+         <li>Botões programáveis</li>
+</ul>
+</td>
+</tr>
+<tr>
+         <td>Mouse Gamer TurboY</td>
+         <td>R$ 89,99</td>
+<td>
+<ul>
+            <li>Sensor de alta sensibilidade</li>
+            <li>Iluminação RGB multicolorida</li>
+            <li>Design ergonômico</li>
+            <li>Botões programáveis</li>
+</ul>
+</td>
+</tr>
+<tr>
+         <td>Teclado Gamer HyperStrike</td>
+         <td>R$ 169,99</td>
+<td>
+<ul>
+         <li>Teclas mecânicas premium</li>
+         <li>Iluminação RGB personalizável</li>
+         <li>Anti-ghosting</li>
+         <li>Descanso de pulso removível</li>
+</ul>
+</td>
+</tr>
+<tr>
+         <td>Teclado Gamer HyperX</td>
+         <td>R$ 189,99</td>
+<td>
+<ul>
+         <li>Teclas mecânicas de alto desempenho</li>
+         <li>Iluminação RGB dinâmica</li>
+         <li>Anti-ghosting avançado</li>
+         <li>Descanso de pulso ajustável</li>
+</ul>
+</td>
+</tr>
+<tr>
+         <td>Monitor Gaming ProMax</td>
+         <td>R$ 1299,99</td>
+<td>
+<ul>
+         <li>Tamanho de 32 polegadas</li>
+         <li>Resolução 4K</li>
+         <li>Taxa de atualização de 180Hz</li>
+         <li>Tecnologia FreeSync Premium</li>
+</ul>
+</td>
+</tr>
+<tr>
+         <td>Monitor Gaming UltraWide</td>
+         <td>R$ 1499,99</td>
+<td>
+<ul>
+         <li>Tamanho de 38 polegadas</li>
+         <li>Resolução Ultra HD</li>
+         <li>Taxa de atualização de 240Hz</li>
+         <li>Tecnologia G-Sync</li>
+</ul>
+</td>
+</tr>
+<tr>
+         <td>Fone de Ouvido Gamer SoundBlast</td>
+         <td>R$ 219,99</td>
+<td>
+<ul>
+         <li>Som surround 7.1</li>
+         <li>Microfone retrátil com cancelamento de ruído</li>
+         <li>Conforto supremo</li>
+         <li>Iluminação LED personalizável</li>
+</ul>
+</td>
+</tr>
+<tr>
+         <td>Fone de Ouvido Gamer ThunderBlast</td>
+         <td>R$ 239,99</td>
+<td>
+<ul>
+         <li>Som surround 7.1 virtual</li>
+         <li>Microfone retrátil com cancelamento de eco</li>
+         <li>Conforto ergonômico avançado</li>
+         <li>Iluminação LED multicolorida</li>
+</ul>
+</td>
+</tr>
+<tr>
+         <td>Placa de Vídeo GeForce X1000</td>
+         <td>R$ 1699,99</td>
+<td>
+<ul>
+         <li>10GB de memória GDDR6</li>
+         <li>Ray tracing avançado</li>
+         <li>Boost clock de 1850MHz</li>
+         <li>Compatível com DirectX 13</li>
+</ul>
+</td>
+</tr>
+<tr>
+         <td>Placa de Vídeo Radeon Z2000</td>
+         <td>R$ 1899,99</td>
+<td>
+<ul>
+         <li>12GB de memória GDDR6</li>
+         <li>Ray tracing em tempo real aprimorado</li>
+         <li>Boost clock de 1900MHz</li>
+         <li>Compatível com DirectX 13</li>
+</ul>
+</td>
+</tr>
+</table>
+         <p>Nota: Os preços e as características dos produtos são fictícios e apenas para fins de demonstração.</p>
+
+<script>
+        
+        function toggleDaltonico() {
+            const body = document.body;
+            body.classList.toggle('daltonico');
+}
+
+        function increaseFont() {
+            const body = document.body;
+            const currentFontSize = window.getComputedStyle(body, null).getPropertyValue('font-size');
+            const newSize = (parseFloat(currentFontSize) * 1.2) + 'px';
+            body.style.fontSize = newSize;
+}
+
+        function decreaseFont() {
+            const body = document.body;
+            const currentFontSize = window.getComputedStyle(body, null).getPropertyValue('font-size');
+            const newSize = (parseFloat(currentFontSize) / 1.2) + 'px';
+            body.style.fontSize = newSize;
+}
+
+        function restoreDefaults() {
+            const body = document.body;
+            body.classList.remove('daltonico');
+            body.style.fontSize = '16px';
+}
+
+</script>
+</body>
+</html>
